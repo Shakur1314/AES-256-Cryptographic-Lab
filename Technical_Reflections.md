@@ -23,7 +23,7 @@ I identified **XOR (Exclusive Or)** as the logical "glue" of the CBC mode. It is
 
 * **The Process:** Before a block of my plaintext message was encrypted, the system compared it against the ciphertext of the previous block using XOR logic.
 * **The Goal:** This ensures that even if my message contains repeating words, the output for each block remains unique.
-* **Tip:** When explaining this in a professional context, I will describe XOR as the primary mechanism that prevents detectable "patterns" from appearing in the encrypted data.
+* **Tip:** XOR is the primary mechanism that prevents detectable "patterns" from appearing in the encrypted data.
 
 ## 4. Application of Byte-Level Analysis
 This lab shifted my focus from "translated" text to "raw" data. I moved beyond looking for a simple "Success" message and began analyzing the Hexadecimal strings.
