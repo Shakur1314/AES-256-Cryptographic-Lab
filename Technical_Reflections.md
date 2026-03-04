@@ -4,14 +4,14 @@ This document serves as a reflection on the core cryptographic principles master
 
 ---
 
-## 1. Realization: The Math of a 256-bit Key
+## 1. The Math of a 256-bit Key
 During the lab, I realized that in modern cryptography, characters and bits are inextricably linked by mathematics. I achieved a 256-bit key by ensuring my string was exactly 32 characters long.
 
 * **The Math:** I learned that 1 character (in UTF-8) equals 1 Byte.
 * **The Conversion:** Since 1 Byte equals 8 bits, my 32-character string provided exactly 256 bits ($32 \text{ Bytes} \times 8 \text{ bits} = 256 \text{ bits}$).
 * **Tip:** I initially encountered an "Invalid Key Length" error with 31 bytes. This was a vital lesson: the AES-256 algorithm is rigid and requires a specific bit-count to successfully run its 14 rounds of transformation.
 
-## 2. Realization: Initialization Vector (IV) and Block Size
+## 2. : Initialization Vector (IV) and Block Size
 I discovered that you don't change the algorithm to fit your data; you must provide inputs that match the algorithm's fixed standards.
 
 * **The Standard:** Regardless of whether the key is 128, 192, or 256 bits, AES always processes data in **128-bit blocks**.
