@@ -1,6 +1,13 @@
 # AES-256-Cryptographic-Lab
 A practical laboratory exercise implementing symmetric encryption using the AES-256 standard in CBC mode. This project demonstrates cryptographic troubleshooting, key/IV management, and block cipher analysis for SOC Analyst applications.
 # Lab: Practical Implementation of AES-256 Symmetric Encryption
+## Project Navigation
+
+1. [Technical Lab Implementation](README.md) 
+
+2. [Deep Dive: Technical Reflections](Technical_Reflections.md)
+
+3. [Strategic View: Real-World Applications](Real_World_Applications.md)
 
 ## 1. Project Overview
 This lab demonstrates the configuration and execution of the **Advanced Encryption Standard (AES)** in **Cipher Block Chaining (CBC)** mode. As an aspiring SOC Analyst, understanding how block ciphers transform data is critical for identifying encrypted traffic patterns and ensuring data confidentiality within the CIA Triad.
